@@ -1,0 +1,38 @@
+$font-family_1: 'Fasthand', cursive;
+
+/* HOME */
+.home-page {
+	display: block;
+	opacity: 1;
+	transition: opacity 0.5s ease-in-out;
+}
+.menu {
+	height: 100vh;
+	z-index: 1;
+	width: 100%;
+}
+.menu-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+.link-wrapper {
+	text-align: center;
+	font-weight: 500;
+	font-size: 50px;
+	margin-top: .3rem;
+	margin-bottom: .3rem;
+}
+.dxvid-wrapper {
+	text-align: center;
+	font-family: $font-family_1;
+	font-weight: 500;
+	font-size: 2.1rem;
+}
+/* mobile */
+@media (max-width: 549px) {
+	.link-wrapper {
+		font-size: 35px;
+	}
+}
