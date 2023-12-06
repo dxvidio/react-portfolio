@@ -36,7 +36,7 @@ function App() {
 
   return <div className="App">
     <div class="video-background">
-        <video src="media/greekyogurt.mp4" id="background" poster="media/poster.png" autoPlay loop muted />
+        <video src="media/greekyogurt.mp4" id="background" poster="media/poster.png" autoPlay loop muted controls={false} />
     </div>
     <div class="container">
         <div class="nav-wrapper">
