@@ -123,6 +123,17 @@ function App() {
                                     projects
                                 </div>
                                 <hr/>
+                                <a href="media/projects/soon.png" target="_blank" rel="noreferrer" onMouseOver={() => see_img('copro')} onMouseOut={() => hide_img('copro')}>
+                                    <div class="project-title">
+                                        <div class="project-title-left">
+                                            COPRO AI
+                                        </div>
+                                        <div class="project-title-right">
+                                            In Development
+                                        </div>
+                                    </div>
+                                </a>
+                                <hr/>
                                 <a href="https://traveloasis-us.com/" target="_blank" rel="noreferrer" onMouseOver={() => see_img('traveloasis')} onMouseOut={() => hide_img('traveloasis')}>
                                     <div class="project-title">
                                         <div class="project-title-left">
@@ -171,6 +182,9 @@ function App() {
                     </div>
                     
                     <div class="projects-right">
+                        <div class="project-image" id="copro">
+                            <img src="media/projects/copro/copro.png" width="400" height="400" style={{ borderRadius: '20% 5% 20% 5%' }} alt=""/>
+                        </div>
                         <div class="project-image" id="traveloasis">
                             <img src="media/projects/traveloasis/traveloasis.png" width="400" height="400" style={{ borderRadius: '20% 5% 20% 5%' }} alt=""/>
                         </div>
