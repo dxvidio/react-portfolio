@@ -95,7 +95,7 @@ function App() {
                                 <hr/>
                                 <div class="about-text">
                                     Hi, my name is David Lee and I am a third year Computer Science major at UCLA. 
-                                    I enjoy front-end web development and UI/UX design, and I also have experience employing full stack applications and working with data.
+                                    As of 2024, my passion for ideating and creating has landed me opportunities to work with real estate company Travel Oasis and GRAMMY-nominated producer John Conte Jr. to develop software products in the domain of marketing and artificial intelligence. 
                                     I also enjoy creating music and graphic design, which I use often in my work as a software developer.
                                 </div>
                                 <div class="about-resume">
