@@ -123,7 +123,7 @@ function App() {
                                     projects
                                 </div>
                                 <hr/>
-                                <a href="media/projects/soon.png" target="_blank" rel="noreferrer" onMouseOver={() => see_img('copro')} onMouseOut={() => hide_img('copro')}>
+                                <a href="media/projects/copro/soon.png" target="_blank" rel="noreferrer" onMouseOver={() => see_img('copro')} onMouseOut={() => hide_img('copro')}>
                                     <div class="project-title">
                                         <div class="project-title-left">
                                             COPRO AI
