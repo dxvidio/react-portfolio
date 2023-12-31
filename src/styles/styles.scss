@@ -19,6 +19,19 @@ html, body {
 	-webkit-font-smoothing: antialiased;
 	display: block;
 }
+#light {
+	transition: filter 0.5s ease-in-out;
+}
+#dark {
+	filter: invert(1);
+	.about-picture {
+		filter: invert(1);
+	}
+	.project-image {
+		filter: invert(1);
+	}
+	transition: filter 0.5s ease-in-out;
+}
 a {
 	text-decoration: none;
 	color: $color_1;

@@ -1,5 +1,9 @@
 import "./styles/styles.scss"
 import '@dotlottie/player-component';
+import { createContext } from "react";
+import { useState } from "react";
+
+export const ThemeContext = createContext(null);
 
 function App() {
 
@@ -34,7 +38,13 @@ function App() {
         document.getElementById('home-page').style.opacity = 1;
     }   
 
-  return <div className="App">
+    const [theme, setTheme] = useState("light");
+    function toggleTheme() {
+        setTheme((curr) => (curr === "light" ? "dark" : "light"));
+    };
+
+  return <div className="App" id={theme}>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
     <div class="video-background">
         <video src="media/greekyogurt.mp4" id="background" poster="media/poster.png" autoPlay loop muted controls={false} />
     </div>
@@ -56,7 +66,7 @@ function App() {
                 </div>
                 <div class="nav-right">
                     <div class="theme-button">
-                        <img src="media/theme.png" id="logo_img" width="45px" height="45px" alt=""/>
+                        <img src="media/theme.png" id="logo_img" onClick={() => toggleTheme()} width="45px" height="45px" alt=""/>
                     </div>
                 </div>
             </div>
@@ -240,6 +250,7 @@ function App() {
 
         </main>
     </div>
+    </ThemeContext.Provider>
   </div>;
 }
 
