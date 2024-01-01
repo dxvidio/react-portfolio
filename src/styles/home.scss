@@ -8,8 +8,8 @@ $font-family_1: 'Fasthand', cursive;
 }
 .menu {
 	height: 100vh;
+	width: 100vw;
 	z-index: 1;
-	width: 100%;
 }
 .menu-content {
 	display: flex;
@@ -38,6 +38,9 @@ $font-family_1: 'Fasthand', cursive;
 /* mobile */
 @media (max-width: 549px) {
 	.link-wrapper {
+		font-size: 35px;
+	}
+	.link-wrapper button {
 		font-size: 35px;
 	}
 }
