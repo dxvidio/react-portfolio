@@ -48,6 +48,9 @@ function App() {
     <div class="video-background">
         <video src="media/greekyogurt.mp4" id="background" poster="media/poster.png" autoPlay loop muted controls={false} />
     </div>
+    <div class="photo-background">
+        <img src="media/poster.png"/>
+    </div>
     <div class="container">
         <div class="nav-wrapper">
             <div class="nav-bar">
