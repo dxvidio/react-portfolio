@@ -140,6 +140,9 @@ hr {
 	}
 	.video-background {
 		opacity: 0;
+		video {
+			opacity: 0;
+		}
 	}
 }
 /* tablet portrait */
