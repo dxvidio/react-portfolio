@@ -62,7 +62,7 @@ img {
 		height: 100%;
 		object-fit: cover;
 	}
-	opacity: 1;
+	display: block;
 }
 .photo-background {
 	position: fixed;
@@ -74,7 +74,7 @@ img {
 		height: 100%;
 		object-fit: cover;
 	}
-	opacity: 0;
+	display: none;
 }
 .content {
 	position: fixed;
@@ -137,12 +137,12 @@ hr {
 /* tablet landscape */
 @media (max-width: 1000px) {
 	.photo-background {
-		opacity: 1;
+		display: block;
 	}
 	.video-background {
-		opacity: 0;
+		display: none;
 		video {
-			opacity: 0;
+			display: none;
 		}
 	}
 }
