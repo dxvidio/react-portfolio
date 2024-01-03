@@ -2,10 +2,19 @@ import "./styles/styles.scss"
 import '@dotlottie/player-component';
 import { createContext } from "react";
 import { useState } from "react";
+import { useEffect } from 'react';
 
 export const ThemeContext = createContext(null);
 
 function App() {
+
+    useEffect(() => {
+    const screenWidth = visualViewport.width;
+
+    if (screenWidth > 1000) {
+        document.querySelector("#background").autoplay = true;
+    }
+    }, []);
 
     function see_img(a) {
         document.getElementById(a).style.opacity = 1;
@@ -46,7 +55,7 @@ function App() {
   return <div className="App" id={theme}>
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
     <div class="video-background">
-        <video src="media/greekyogurt.mp4" id="background" poster="media/poster.png" autoPlay loop muted controls={false} />
+        <video src="media/greekyogurt.mp4" id="background" poster="media/poster.png" loop muted controls={false} />
     </div>
     <div class="photo-background">
         <img src="media/poster.png" alt=""/>
