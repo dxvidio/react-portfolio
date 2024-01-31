@@ -1,5 +1,6 @@
 import "./styles/styles.scss"
 import '@dotlottie/player-component';
+import { createContext, useState, useEffect } from "react";
 
 export const ThemeContext = createContext(null);
 
