@@ -1,7 +1,6 @@
 import "./styles/styles.scss"
 import '@dotlottie/player-component';
 import { createContext, useState, useEffect } from "react";
-// import { SafeAreaView } from 'react-native';
 
 export const ThemeContext = createContext(null);
 
