@@ -1,0 +1,43 @@
+.video-background {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: -100;
+	video {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	display: block;
+}
+.photo-background {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: -100;
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	display: none;
+}
+#background {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+/* tablet landscape */
+@media (max-width: 1000px) {
+	.photo-background {
+		display: block;
+	}
+	.video-background {
+		display: none;
+		video {
+			display: none;
+		}
+	}
+}

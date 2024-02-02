@@ -3,9 +3,8 @@
 
 .about-page {
 	display: block;
-	opacity: 0;
-	transition: opacity 0.5s ease-in-out;
-	height: 0;
+	opacity: 1;
+	height: 100%;
 }
 .about {
 	display: flex;
@@ -13,14 +12,14 @@
 .about-left {
 	position: relative;
 	width: 45%;
-	padding: 14rem 0rem 10rem 15rem;
+	padding: 13rem 0rem 10rem 15rem;
 	height: 100vh;
 }
 .about-right {
 	position: relative;
 	width: 55%;
 	height: 100vh;
-	padding: 14rem 9rem 10rem 1rem;
+	padding: 13rem 9rem 10rem 1rem;
 }
 .about-picture {
 	display: flex;
