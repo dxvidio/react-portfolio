@@ -29,8 +29,20 @@
 .contact-left-wrapper {
 	position: relative;
 	width: 100%;
-	padding: 205px 0 160px 0;
+	padding: 250px 0 160px 0;
 	height: 100vh;
+}
+/* macbook pro 14" display */
+@media (max-width: 1649px) {
+	.contact-left-wrapper {
+		padding: 230px 0 160px 0;
+	}
+}
+/* macbook air display */
+@media (max-width: 1499px) {
+	.contact-left-wrapper {
+		padding: 205px 0 160px 0;
+	}
 }
 /* tablet landscape */
 @media (max-width: 1199px) {

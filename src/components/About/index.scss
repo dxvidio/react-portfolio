@@ -12,29 +12,68 @@
 .about-left {
 	position: relative;
 	width: 45%;
-	padding: 13rem 0rem 10rem 15rem;
+	padding: 19rem 0rem 10rem 16rem;
 	height: 100vh;
 }
 .about-right {
 	position: relative;
 	width: 55%;
 	height: 100vh;
-	padding: 13rem 9rem 10rem 1rem;
+	padding: 19rem 8rem 10rem 1rem;
 }
 .about-picture {
 	display: flex;
 	justify-content: center;
 }
 .page-heading {
-	font-size: 48px;
+	font-size: 54px;
 }
 .about-text {
 	margin-top: 16px;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 }
 .about-resume {
 	margin-top: 16px;
-	font-size: 20px;
+	font-size: 23px;
+}
+#about_img {
+	width: 450px;
+	height: 450px;
+}
+/* macbook pro 14" display */
+@media (max-width: 1649px) {
+	.about-resume {
+		font-size: 20px;
+	}
+	.about-left {
+		padding: 16rem 0rem 10rem 15rem;
+	}
+	.about-right {
+		padding: 16rem 9rem 10rem 1rem;
+	}
+	.about-text {
+		font-size: 1.2rem;
+	}
+	.page-heading {
+		font-size: 48px;
+	}
+	#about_img {
+		width: 390px;
+		height: 390px;
+	}
+}
+/* macbook air display */
+@media (max-width: 1499px) {
+	.about-left {
+		padding: 13rem 0rem 10rem 15rem;
+	}
+	.about-right {
+		padding: 15rem 9rem 9rem 2rem;
+	}
+	#about_img {
+		width: 370px;
+		height: 370px;
+	}
 }
 /* tablet landscape */
 @media (max-width: 1199px) {

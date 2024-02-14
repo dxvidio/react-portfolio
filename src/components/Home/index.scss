@@ -19,20 +19,32 @@ $font-family_1: 'Fasthand', cursive;
 .link-wrapper {
 	text-align: center;
 	font-weight: 500;
-	font-size: 50px;
-	margin-top: .3rem;
-	margin-bottom: .3rem;
+	font-size: 60px;
+	margin-top: .4rem;
+	margin-bottom: .4rem;
 }
-
 .link-wrapper button {
 	color: black;
 }
-
 .dxvid-wrapper {
 	text-align: center;
 	font-family: $font-family_1;
 	font-weight: 500;
 	font-size: 35px;
+}
+/* macbook pro 14" display */
+@media (max-width: 1649px) {
+	.link-wrapper {
+		font-size: 55px;
+		margin-top: .3rem;
+		margin-bottom: .3rem;
+	}
+}
+/* macbook air display */
+@media (max-width: 1499px) {
+	.link-wrapper {
+		font-size: 50px;
+	}
 }
 /* mobile */
 @media (max-width: 549px) {
