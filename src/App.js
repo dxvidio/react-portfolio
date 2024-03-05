@@ -2,7 +2,7 @@ import "./App.scss"
 import '@dotlottie/player-component';
 import { createContext, useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom"
-import Background from './components/Background'
+import Background from './components/Background/Background'
 import AnimatedRoutes from "./components/AnimatedRoutes";
 import { motion } from 'framer-motion';
 

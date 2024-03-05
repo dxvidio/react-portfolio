@@ -1,4 +1,4 @@
-import './index.scss';
+import './Background.scss';
 
 const Background = () => {
     return  <div className="background">

@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import './index.scss'
+import './Home.scss'
 import { motion } from 'framer-motion';
 
 const Home = () => {

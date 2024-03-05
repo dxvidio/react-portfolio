@@ -1,4 +1,4 @@
-import './index.scss'
+import './Contact.scss'
 import { motion } from 'framer-motion';
 
 const Contact = () => {

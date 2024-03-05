@@ -1,7 +1,7 @@
-import Home from './Home';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+import Home from './Home/Home';
+import About from './About/About';
+import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
 import { Routes, Route, useLocation } from "react-router-dom"
 import { AnimatePresence } from 'framer-motion'
 

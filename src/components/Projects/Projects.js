@@ -1,4 +1,4 @@
-import './index.scss'
+import './Projects.scss'
 import { motion } from 'framer-motion';
 
 const Projects = () => {
