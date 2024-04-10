@@ -1,10 +1,11 @@
-import "./App.scss"
-import '@dotlottie/player-component';
 import { createContext, useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom"
+import { motion } from 'framer-motion';
+import '@dotlottie/player-component';
+
+import "./App.scss"
 import Background from './components/Background/Background'
 import AnimatedRoutes from "./components/AnimatedRoutes";
-import { motion } from 'framer-motion';
 
 export const ThemeContext = createContext(null);
 

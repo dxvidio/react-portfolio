@@ -1,5 +1,6 @@
-import './Contact.scss'
 import { motion } from 'framer-motion';
+
+import './Contact.scss'
 
 const Contact = () => {
     return  <motion.div 
