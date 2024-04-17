@@ -87,6 +87,17 @@ const Projects = () => {
                                         </div>
                                     </div>
                                 </a>
+                                <hr/>
+                                <a href="https://github.com/JDingle77/UCLAnus/wiki" target="_blank" rel="noreferrer" onMouseOver={() => see_img('UCLAnus')} onMouseOut={() => hide_img('UCLAnus')}>
+                                    <div className="project-title">
+                                        <div className="project-title-left">
+                                            UCLAnus
+                                        </div>
+                                        <div className="project-title-right">
+                                            Full Stack Development
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                             </div>
                     </div>
@@ -106,6 +117,9 @@ const Projects = () => {
                         </div>
                         <div className="project-image" id="headroom">
                             <img src="media/projects/headroom/headroom.png" width="400" height="400" style={{ borderRadius: '20% 5% 20% 5%' }} alt=""/>
+                        </div>
+                        <div className="project-image" id="UCLAnus">
+                            <img src="media/projects/UCLAnus/UCLAnus.png" width="400" height="400" style={{ borderRadius: '20% 5% 20% 5%' }} alt=""/>
                         </div>
                     </div>
                 </div>
