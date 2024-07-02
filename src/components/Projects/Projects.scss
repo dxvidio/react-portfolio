@@ -38,6 +38,14 @@
 	padding: 11rem 0rem 10rem 15rem;
 	height: 100vh;
 }
+.projects-left-menu {
+	height: 50vh;
+	overflow-y: scroll;
+	scrollbar-width: none;
+}
+.project-left-menu::-webkit-scrollbar {
+	display: none;
+}
 /* tablet landscape */
 @media (max-width: 1199px) {
 	.projects {
