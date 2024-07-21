@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import '@dotlottie/player-component';
 
 import "./App.scss"
-import Background from './components/Background/Background'
+import Background from "./components/Background";
 import AnimatedRoutes from "./components/AnimatedRoutes";
 
 export const ThemeContext = createContext(null);
@@ -49,7 +49,7 @@ function App() {
                                 }}
                                 exit={{opacity: 0}}>
                                     <div className="name">
-                                        DAVID LEE
+                                        david lee
                                     </div>
                                     <div className="sub-name">
                                         software engineer & designer
