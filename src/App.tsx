@@ -7,7 +7,6 @@ import React from 'react';
 import "./App.scss"
 import AnimatedRoutes from "./components/AnimatedRoutes.tsx";
 import { AuroraBackground } from "./components/ui/aurora-background.tsx";
-
 export const ThemeContext = createContext(null);
 
 function App() {
@@ -66,8 +65,8 @@ function App() {
                      </div>
                   </div>
                </div>
-               </AuroraBackground>
                <AnimatedRoutes/>
+               </AuroraBackground>
             {/* </ThemeContext.Provider> */}
          </div>;
 }
