@@ -18,9 +18,9 @@ function App() {
     document.querySelector("#background").autoplay = true;
   }
   }, []);
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   function toggleTheme() {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+    setTheme((curr) => (curr === "dark" ? "light" : "dark"));
   };
 
   const location = useLocation();

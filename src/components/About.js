@@ -27,7 +27,7 @@ const About = () => {
                 </div>
                 <div className="about-resume">
                   <a href="media/about/DavidLee_Resume.pdf" target="_blank" rel="noreferrer">
-                    <img src="media/about/download.png" width="30px" height="30px" alt=""/> resume 
+                    <img src="media/about/download.png" id="download_img" alt=""/> resume 
                   </a>
                 </div>
               </div>

@@ -27,9 +27,9 @@ const Home = () => {
               <div className="link-wrapper">
                   <NavLink to="/contact">contact</NavLink>
               </div> 
-              <div className="dxvid-wrapper">
+              {/* <div className="dxvid-wrapper">
                 <a href="https://open.spotify.com/artist/4fEApuw5C7FRsOz0Y0ODSy?si=eVnxfyMGQzSb0KUSvb9Z8Q" target="_blank" rel="noreferrer">dxvid</a>
-              </div>
+              </div> */}
             </div>
           </div>
         </motion.div>
