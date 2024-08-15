@@ -26,7 +26,7 @@
 .contact-menu {
 	width: 1000px;
 }
-.contact-left-wrapper {
+.contact {
 	position: relative;
 	width: 100%;
 	padding: 250px 0 160px 0;
@@ -34,13 +34,13 @@
 }
 /* macbook pro 14" display */
 @media (max-width: 1649px) {
-	.contact-left-wrapper {
+	.contact {
 		padding: 230px 0 160px 0;
 	}
 }
 /* macbook air display */
 @media (max-width: 1499px) {
-	.contact-left-wrapper {
+	.contact {
 		padding: 205px 0 160px 0;
 	}
 }
@@ -55,7 +55,7 @@
 	.contact-menu {
 		width: 500px;
 	}
-	.contact-left-wrapper {
+	.contact {
 		padding: 200px 0 160px 0;
 	}
 	.social-icon-img {
@@ -68,7 +68,7 @@
 	.contact-menu {
 		width: 264px;
 	}
-	.contact-left-wrapper {
+	.contact {
 		padding: 130px 0 0 0;
 	}
 	.social-icon-img {
