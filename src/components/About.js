@@ -18,17 +18,21 @@ const About = () => {
           <div className="about">
             <div className="about-left">
               <div className="left-text-wrapper">
-                <div className="page-heading">about</div>
-                <hr/>
-                <div className="about-text">
-                  Hi, my name is David Lee and I am a third year Computer Science major at UCLA. 
-                  As of 2024, my passion for ideating and creating has landed me opportunities to work with real estate company Travel Oasis and GRAMMY-nominated producer John Conte Jr. to develop software products in the domain of marketing and artificial intelligence. 
-                  I also enjoy engineering music and graphic design, which I use often in my work as a software developer.
-                </div>
-                <div className="about-resume">
-                  <a href="media/about/DavidLee_Resume.pdf" target="_blank" rel="noreferrer">
-                    <img src="media/about/download.png" id="download_img" alt=""/> resume 
-                  </a>
+                <div className="left-text">
+                  <div className="page-heading">about</div>
+                  <hr/>
+                  <div className="about-text">
+                    Hi, my name is David and i'm a fourth year computer science major at UCLA with a passion for developing sleek interfaces and efficient software solutions. 
+                    <br/><br/>
+                    Notable Works: John Conte Jr. (GRAMMY-nominated), DAW, Travel Oasis, Airbnb Academy
+                    <br/><br/>
+                    Fun Fact: i love creating analog loops, engineering music, and the Incredibles movie.
+                  </div>
+                  <div className="about-resume">
+                    <a href="media/about/DavidLee_Resume.pdf" target="_blank" rel="noreferrer">
+                      <img src="media/about/download.png" id="download_img" alt=""/> resume 
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
