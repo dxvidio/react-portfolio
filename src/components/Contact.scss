@@ -1,10 +1,11 @@
-
-/* CONTACT */
-
-.contact-page {
-	display: block;
-	opacity: 1;
-	height: 100%;
+.contact {
+	display: flex;
+	padding: 19rem 0rem 10rem 0rem;
+	justify-content: center;
+	width: 100%;
+}
+.contact-menu {
+	width: 1000px;
 }
 .social-menu {
 	display: flex;
@@ -18,30 +19,16 @@
     width: 8rem;
 	height: 8rem;
 }
-.contact-left {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-}
-.contact-menu {
-	width: 1000px;
-}
-.contact {
-	position: relative;
-	width: 100%;
-	padding: 250px 0 160px 0;
-	height: 100vh;
-}
 /* macbook pro 14" display */
 @media (max-width: 1649px) {
 	.contact {
-		padding: 230px 0 160px 0;
+		padding: 16rem 0rem 10rem 0rem;
 	}
 }
 /* macbook air display */
 @media (max-width: 1499px) {
 	.contact {
-		padding: 205px 0 160px 0;
+		padding: 13rem 0rem 10rem 0rem;
 	}
 }
 /* tablet landscape */

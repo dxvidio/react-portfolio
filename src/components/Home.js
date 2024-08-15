@@ -16,20 +16,18 @@ const Home = () => {
           }}
           exit={{opacity: 0}}
         >
-          <div className="menu">
-            <div className="menu-content">
-              <div className="link-wrapper">
-                  <NavLink to="/about">about</NavLink>
-              </div>
-              <div className="link-wrapper">
-                  <NavLink to="/projects">projects</NavLink>
-              </div>
-              <div className="link-wrapper">
-                  <NavLink to="/contact">contact</NavLink>
-              </div> 
-              <div className="dxvid-wrapper">
-                <a href="https://open.spotify.com/artist/4fEApuw5C7FRsOz0Y0ODSy?si=eVnxfyMGQzSb0KUSvb9Z8Q" target="_blank" rel="noreferrer">dxvid</a>
-              </div>
+          <div className="menu-content">
+            <div className="link-wrapper">
+                <NavLink to="/about">about</NavLink>
+            </div>
+            <div className="link-wrapper">
+                <NavLink to="/projects">projects</NavLink>
+            </div>
+            <div className="link-wrapper">
+                <NavLink to="/contact">contact</NavLink>
+            </div> 
+            <div className="dxvid-wrapper">
+              <a href="https://open.spotify.com/artist/4fEApuw5C7FRsOz0Y0ODSy?si=eVnxfyMGQzSb0KUSvb9Z8Q" target="_blank" rel="noreferrer">dxvid</a>
             </div>
           </div>
         </motion.div>

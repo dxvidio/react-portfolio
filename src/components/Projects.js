@@ -13,64 +13,68 @@ const Projects = () => {
   }   
 
   return<motion.div 
-        className="projects-page" 
-        initial={{opacity: 0}}
-        animate={{
-          opacity: 1, 
-          transition: {
-            duration: 2,
-            ease: 'backInOut'
-          }
-        }}
-        exit={{opacity: 0}}
+          initial={{opacity: 0}}
+          animate={{
+            opacity: 1, 
+            transition: {
+              duration: 2,
+              ease: 'backInOut'
+            }
+          }}
+          exit={{opacity: 0}}
         >
           <div className="projects">
-            <div className="projects-left-wrapper">
-              <div className="projects-left">
-                <div className="page-heading">projects</div>
+            <div className="projects-left">
+              <div className="page-heading">projects</div>
+              <hr/>
+              <a href="media/projects/copro/soon.png" target="_blank" rel="noreferrer" onMouseOver={() => see_img('copro')} onMouseOut={() => hide_img('copro')}>
+                <div className="card">
+                  <div className="card-title">COPRO AI</div>
+                  <div className="card-subtitle">In Development</div>
+                </div>
+              </a>
+              <NavLink to="/projects/travel-oasis" onMouseOver={() => see_img('traveloasis')} onMouseOut={() => hide_img('traveloasis')}>
                 <hr/>
-                <a href="media/projects/copro/soon.png" target="_blank" rel="noreferrer" onMouseOver={() => see_img('copro')} onMouseOut={() => hide_img('copro')}>
-                  <div className="project-title">
-                    <div className="project-title-left">COPRO AI</div>
-                    <div className="project-title-right">In Development</div>
+                <div className="card">
+                  <div className="card-title">Travel Oasis</div>
+                  <div className="card-subtitle">Web Development</div>
+                </div>
+              </NavLink>
+                <a href="https://github.com/dxvidio/bruin-rides" target="_blank" rel="noreferrer" onMouseOver={() => see_img('bruinrides')} onMouseOut={() => hide_img('bruinrides')}>
+                  <hr/>
+                  <div className="card">
+                    <div className="card-title">Bruin Rides</div>
+                    <div className="card-subtitle">Full Stack Development</div>
                   </div>
                 </a>
-                <hr/>
-                <NavLink to="/projects/travel-oasis" onMouseOver={() => see_img('traveloasis')} onMouseOut={() => hide_img('traveloasis')}>
-                  <div className="project-title">
-                    <div className="project-title-left">Travel Oasis</div>
-                    <div className="project-title-right">Web Development</div>
+                <a href="https://daw.digital/" target="_blank" rel="noreferrer" onMouseOver={() => see_img('daw')} onMouseOut={() => hide_img('daw')}>
+                  <hr/>
+                  <div className="card">
+                    <div className="card-title">DAW.digital</div>
+                    <div className="card-subtitle">Web Development</div>
                   </div>
-                </NavLink>
-                <hr/>
-                  <a href="https://github.com/dxvidio/bruin-rides" target="_blank" rel="noreferrer" onMouseOver={() => see_img('bruinrides')} onMouseOut={() => hide_img('bruinrides')}>
-                    <div className="project-title">
-                      <div className="project-title-left">Bruin Rides</div>
-                      <div className="project-title-right">Full Stack Development</div>
-                    </div>
-                  </a>
+                </a>
+                <a href="https://github.com/dxvidio/HEADroom" target="_blank" rel="noreferrer" onMouseOver={() => see_img('headroom')} onMouseOut={() => hide_img('headroom')}>
                   <hr/>
-                  <a href="https://daw.digital/" target="_blank" rel="noreferrer" onMouseOver={() => see_img('daw')} onMouseOut={() => hide_img('daw')}>
-                    <div className="project-title">
-                      <div className="project-title-left">DAW.digital</div>
-                      <div className="project-title-right">Web Development</div>
-                    </div>
-                  </a>
+                  <div className="card">
+                    <div className="card-title">HEADroom</div>
+                    <div className="card-subtitle">Software Development</div>
+                  </div>
+                </a>
+                <a href="https://github.com/JDingle77/UCLAnus/wiki" target="_blank" rel="noreferrer" onMouseOver={() => see_img('UCLAnus')} onMouseOut={() => hide_img('UCLAnus')}>
                   <hr/>
-                  <a href="https://github.com/dxvidio/HEADroom" target="_blank" rel="noreferrer" onMouseOver={() => see_img('headroom')} onMouseOut={() => hide_img('headroom')}>
-                    <div className="project-title">
-                      <div className="project-title-left">HEADroom</div>
-                      <div className="project-title-right">Software Development</div>
-                    </div>
-                  </a>
+                  <div className="card">
+                    <div className="card-title">UCLAnus</div>
+                    <div className="card-subtitle">Full Stack Development</div>
+                  </div>
+                </a>
+                <a href="https://github.com/JDingle77/UCLAnus/wiki" target="_blank" rel="noreferrer" onMouseOver={() => see_img('UCLAnus')} onMouseOut={() => hide_img('UCLAnus')}>
                   <hr/>
-                  <a href="https://github.com/JDingle77/UCLAnus/wiki" target="_blank" rel="noreferrer" onMouseOver={() => see_img('UCLAnus')} onMouseOut={() => hide_img('UCLAnus')}>
-                    <div className="project-title">
-                      <div className="project-title-left">UCLAnus</div>
-                      <div className="project-title-right">Full Stack Development</div>
-                    </div>
-                  </a>
-              </div>
+                  <div className="card">
+                    <div className="card-title">UCLAnus</div>
+                    <div className="card-subtitle">Full Stack Development</div>
+                  </div>
+                </a>
             </div>
 
             <div className="projects-right">

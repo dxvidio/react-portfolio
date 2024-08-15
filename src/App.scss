@@ -14,13 +14,14 @@ html, body {
 	width: 100%;
 	-webkit-font-smoothing: antialiased;
 	display: block;
+	scroll-behavior: smooth;
 }
 #light {
 	transition: filter 0.5s ease-in-out;
 }
 #dark {
 	filter: invert(1);
-	.about-picture {
+	#about_img {
 		filter: invert(1);
 	}
 	.project-image {
@@ -65,8 +66,6 @@ hr {
 	position: fixed;
 	z-index: 2;
 	top: 90px;
-	left: 0;
-	right: 0;
 	width: 100%;
 }
 .nav-bar {
@@ -100,6 +99,9 @@ hr {
 .theme-button {
 	size: 3rem;
 	cursor: pointer;
+}
+.page-heading {
+	font-size: 54px;
 }
 
 /* tablet portrait */
