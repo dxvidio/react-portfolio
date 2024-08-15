@@ -27,7 +27,7 @@ const Contact = () => {
                     </a>
                   </div>
                   <div className="social-icon">
-                    <a href="https://www.linkedin.com/in/davidlee1300/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/dxvidio/" target="_blank" rel="noreferrer">
                       <dotlottie-player src="https://lottie.host/bf7d4be5-78a6-4d3a-8c06-f102a4be7e6a/afJQBZExKe.json" className="social-icon-img" background="transparent" speed="1" alt="by Thao Phan" hover loop/>
                     </a>
                   </div>
