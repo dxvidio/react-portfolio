@@ -45,7 +45,7 @@ const Projects = () => {
                   <hr/>
                 </a>
 
-                <a href="media/projects/copro/soon.png" target="_blank" rel="noreferrer" onMouseOver={() => see_img('copro')} onMouseOut={() => hide_img('copro')}>
+                <a href="media/projects/soon.png" target="_blank" rel="noreferrer" onMouseOver={() => see_img('copro')} onMouseOut={() => hide_img('copro')}>
                   <div className="project-title">
                     <div className="project-title-left">CoPro AI</div>
                     <div className="project-title-right">Figma | Photoshop</div>
@@ -53,7 +53,7 @@ const Projects = () => {
                   <hr/>
                 </a>
 
-                <a href="https://github.com/JDingle77/UCLAnus/wiki" target="_blank" rel="noreferrer" onMouseOver={() => see_img('UCLAnus')} onMouseOut={() => hide_img('UCLAnus')}>
+                <a href="https://github.com/JDingle77/UCLAnus" target="_blank" rel="noreferrer" onMouseOver={() => see_img('UCLAnus')} onMouseOut={() => hide_img('UCLAnus')}>
                   <div className="project-title">
                     <div className="project-title-left">UCLAmaps</div>
                     <div className="project-title-right">React | Node.js | Express.js | MongoDB</div>
@@ -111,25 +111,25 @@ const Projects = () => {
                 <img src="media/projects/takeoff.png" alt=""/>
               </div>
               <div className="project-image" id="copro">
-                <img src="media/projects/copro/copro.png" alt=""/>
+                <img src="media/projects/copro.png" alt=""/>
               </div>
               <div className="project-image" id="UCLAnus">
-                <img src="media/projects/UCLAnus/UCLAmaps.png" alt=""/>
+                <img src="media/projects/UCLAmaps.png" alt=""/>
               </div>
               <div className="project-image" id="bnb-academy">
                 <img src="media/projects/bnb-academy.png" alt=""/>
               </div>
               <div className="project-image" id="traveloasis">
-                <img src="media/projects/traveloasis/traveloasis.png" alt=""/>
+                <img src="media/projects/traveloasis.png" alt=""/>
               </div>
               <div className="project-image" id="bruinrides">
-                <img src="media/projects/bruinrides/bruinrides.png" alt=""/>
+                <img src="media/projects/bruinrides.png" alt=""/>
               </div>
               <div className="project-image" id="daw">
-                <img src="media/projects/daw.digital/daw.png" alt=""/>
+                <img src="media/projects/daw.png" alt=""/>
               </div>
               <div className="project-image" id="headroom">
-                <img src="media/projects/headroom/headroom.png" alt=""/>
+                <img src="media/projects/headroom.png" alt=""/>
               </div>
             </div>
           </div>

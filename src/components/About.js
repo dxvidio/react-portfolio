@@ -24,9 +24,9 @@ const About = () => {
                   <div className="about-text">
                     Hi, my name is David and i'm a fourth year computer science major at UCLA with a passion for developing sleek interfaces and efficient software solutions. 
                     <br/><br/>
-                    Notable Works: John Conte Jr. (GRAMMY-nominated), DAW, Travel Oasis, Airbnb Academy
+                    I have professional experience with <br/> Typescript | React | HTML/CSS | Swift <br/> and extensive academic experience with C++ | Python.
                     <br/><br/>
-                    Fun Fact: i love creating analog loops, engineering music, and the Incredibles movie.
+                    I also enjoy producing and engineering music!
                   </div>
                   <div className="about-resume">
                     <a href="media/about/DavidLee_Resume.pdf" target="_blank" rel="noreferrer">
