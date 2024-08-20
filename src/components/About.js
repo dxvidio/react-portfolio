@@ -24,7 +24,7 @@ const About = () => {
                   <div className="about-text">
                     Hi, my name is David and i'm a fourth year computer science major at UCLA with a passion for developing sleek interfaces and efficient software solutions. 
                     <br/><br/>
-                    I have professional experience with <br/> Typescript | React | HTML/CSS | Swift <br/> and extensive academic experience with C++ | Python.
+                    I have professional experience with <br/> Typescript | React | HTML/CSS | Swift | Git <br/> and extensive academic experience with <br/> C++ | Python | Docker.
                     <br/><br/>
                     I also enjoy producing and engineering music!
                   </div>
