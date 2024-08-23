@@ -39,15 +39,10 @@ function App() {
                 <img src={homeIcon} className="logo-img" alt=""/>
               </NavLink>
                 { isHome && 
-                (<motion.div 
-                  className="full-name" 
-                  id="full-name"
+                ( <motion.div 
                   initial={{opacity: 0}}
-                  animate={{
-                    opacity: 1, 
-                    transition: { duration: 2, ease: 'backInOut'}
-                  }}
-                    exit={{opacity: 0}}
+                  animate={ {opacity:1, transition: {duration:2, ease:'backInOut'}} }
+                  exit={{opacity: 0}}
                   >
                     <div className="name">david lee</div>
                     <div className="sub-name">software developer & designer</div>
