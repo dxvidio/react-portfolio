@@ -25,7 +25,8 @@ const Projects = () => {
           <div className="page-heading">projects</div>
           <hr/>
           <div className="projects-left">
-            <a href="https://github.com/dxvidio/newtons-cradle" target="_blank" rel="noreferrer" onMouseOver={() => see_img('cradle')} onMouseOut={() => hide_img('cradle')}>
+
+            <a href="https://newtons-cradle-two.vercel.app/" target="_blank" rel="noreferrer" onMouseOver={() => see_img('cradle')} onMouseOut={() => hide_img('cradle')}>
               <div className="project-title">
                 <div className="project-title-left">Newton's Cradle</div>
                 <div className="project-title-right">Typescript | React | CSS | Matter.js</div>
@@ -33,7 +34,7 @@ const Projects = () => {
               <hr/>
             </a>
 
-            <a href="https://github.com/serna-bot/takeoff" target="_blank" rel="noreferrer" onMouseOver={() => see_img('takeoff')} onMouseOut={() => hide_img('takeoff')}>
+            <a href="https://takeoff-gilt.vercel.app/" target="_blank" rel="noreferrer" onMouseOver={() => see_img('takeoff')} onMouseOut={() => hide_img('takeoff')}>
               <div className="project-title">
                 <div className="project-title-left">Takeoff</div>
                 <div className="project-title-right">Javascript</div>
@@ -49,7 +50,7 @@ const Projects = () => {
               <hr/>
             </a>
 
-            <a href="https://github.com/JDingle77/UCLAnus" target="_blank" rel="noreferrer" onMouseOver={() => see_img('UCLAnus')} onMouseOut={() => hide_img('UCLAnus')}>
+            <a href="https://github.com/JDingle77/UCLAnus/wiki#log" target="_blank" rel="noreferrer" onMouseOver={() => see_img('UCLAnus')} onMouseOut={() => hide_img('UCLAnus')}>
               <div className="project-title">
                 <div className="project-title-left">UCLAmaps</div>
                 <div className="project-title-right">React | Node.js | Express.js | MongoDB</div>
