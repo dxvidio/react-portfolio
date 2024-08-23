@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
 import './Projects.scss'
 import { bnbIcon, dawIcon, mapsIcon, bruinIcon, coproIcon, cradleIcon, travelIcon, takeoffIcon, headroomIcon } from '../media/projects/icon'
