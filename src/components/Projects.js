@@ -65,13 +65,21 @@ const Projects = () => {
               <hr/>
             </a>
 
-            <NavLink to="/projects/travel-oasis" onMouseOver={() => see_img('traveloasis')} onMouseOut={() => hide_img('traveloasis')}>
+            {/* <NavLink to="/projects/travel-oasis" onMouseOver={() => see_img('traveloasis')} onMouseOut={() => hide_img('traveloasis')}>
               <div className="project-title">
                 <div className="project-title-left">Travel Oasis</div>
                 <div className="project-title-right">MySQL | HTML | CSS</div>
               </div>
               <hr/>
-            </NavLink>
+            </NavLink> */}
+
+            <a href="https://traveloasis-us.com/" target="_blank" rel="noreferrer" onMouseOver={() => see_img('traveloasis')} onMouseOut={() => hide_img('traveloasis')}>
+              <div className="project-title">
+                <div className="project-title-left">Travel Oasis</div>
+                <div className="project-title-right">MySQL | HTML | CSS</div>
+              </div>
+              <hr/>
+            </a>
 
             <a href="https://github.com/dxvidio/bruin-rides" target="_blank" rel="noreferrer" onMouseOver={() => see_img('bruinrides')} onMouseOut={() => hide_img('bruinrides')}>
               <div className="project-title">
