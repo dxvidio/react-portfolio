@@ -26,6 +26,9 @@ html, body {
 	.project-image {
 		filter: invert(1);
 	}
+	.cover-picture {
+		filter: invert(1);
+	}
 	transition: filter 0.5s ease-in-out;
 }
 a {
@@ -60,6 +63,16 @@ hr {
 	background-color: $background-color_1;
 	border-width: 0;
 	border-radius: 10% 10% 10% 10%;
+}
+h3 {
+	font-size: 25px;
+	font-weight: 500;
+}
+h4 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .nav-wrapper {
 	position: fixed;
