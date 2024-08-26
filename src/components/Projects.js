@@ -28,7 +28,7 @@ const Projects = () => {
 
             <NavLink to="/projects/friend-activity" onMouseOver={() => see_img('friends')} onMouseOut={() => hide_img('friends')}>
               <div className="project-title">
-                <div className="project-title-left">Friends for Spotify</div>
+                <div className="project-title-left">Friend Activity (Spotify)</div>
                 <div className="project-title-right">Swift | SwiftUI | Figma</div>
               </div>
               <hr/>
