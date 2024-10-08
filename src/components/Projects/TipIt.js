@@ -47,15 +47,12 @@ const FriendActivity = () => {
           </div>
           <div className="project-images">
               <div className="project-slide">
-                <h4 style={{textAlign: 'center'}}></h4>
                 <img src={ui1} className='cover-picture' alt=''/>
               </div>
               <div className="project-slide">
-                <h4 style={{textAlign: 'center'}}></h4>
                 <img src={ui2} className='cover-picture' alt=''/>
               </div>
               <div className="project-slide">
-                <h4 style={{textAlign: 'center'}}></h4>
                 <img src={ui3} className='cover-picture' alt=''/>
               </div>
             </div>
