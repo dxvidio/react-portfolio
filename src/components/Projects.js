@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { NavLink } from 'react-router-dom';
 
 import './Projects.scss'
-import { bnbIcon, dawIcon, mapsIcon, bruinIcon, coproIcon, cradleIcon, travelIcon, takeoffIcon, headroomIcon, friendsIcon } from '../media/projects/icon'
+import { bnbIcon, dawIcon, mapsIcon, bruinIcon, coproIcon, cradleIcon, travelIcon, takeoffIcon, headroomIcon, friendsIcon, tipitIcon } from '../media/projects/icon'
 import soon from '../media/soon.png'
 
 const Projects = () => {
@@ -26,10 +26,18 @@ const Projects = () => {
           <hr/>
           <div className="projects-left">
 
+            <NavLink to="/projects/tipit" onMouseOver={() => see_img('tipitIcon')} onMouseOut={() => hide_img('tipitIcon')}>
+              <div className="project-title">
+                <div className="project-title-left">TipIt</div>
+                <div className="project-title-right">Swift | SQLite | Figma</div>
+              </div>
+              <hr/>
+            </NavLink>
+
             <NavLink to="/projects/friend-activity" onMouseOver={() => see_img('friends')} onMouseOut={() => hide_img('friends')}>
               <div className="project-title">
                 <div className="project-title-left">Friend Activity (Spotify)</div>
-                <div className="project-title-right">Swift | SwiftUI | Figma</div>
+                <div className="project-title-right">Swift | Figma</div>
               </div>
               <hr/>
             </NavLink>
@@ -145,6 +153,9 @@ const Projects = () => {
           </div>
           <div className="project-image" id="friends">
             <img src={friendsIcon} alt=""/>
+          </div>
+          <div className="project-image" id="tipitIcon">
+            <img src={tipitIcon} alt=""/>
           </div>
         </div>
       </div>

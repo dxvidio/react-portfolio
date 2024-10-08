@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion';
 
 import './FriendActivity.scss'
-import cover from '../../media/projects/friend-activity/cover.png'
-import widget from '../../media/projects/friend-activity/widget.png'
-import design from '../../media/projects/friend-activity/design.png'
+import cover from '../../media/projects/tipit/cover.png'
+import ui1 from '../../media/projects/tipit/tipit-ui1.png'
+import ui2 from '../../media/projects/tipit/tipit-ui2.png'
+import ui3 from '../../media/projects/tipit/tipit-ui3.png'
+
 
 
 const FriendActivity = () => {
@@ -12,7 +14,7 @@ const FriendActivity = () => {
       <div className="project-content-wrapper">
         <div className="project-content">
           <img src={cover} className='cover-picture' alt=''/>
-          <div className="page-heading">Friend Activity (for Spotify)</div>
+          <div className="page-heading">TipIt</div>
           <hr/>
           <div className="project-info">
             <div className="project-descriptors">
@@ -27,7 +29,7 @@ const FriendActivity = () => {
                 <td>
                   <h3>technologies</h3>
                 </td>
-                <td>Swift | SwiftUI</td>
+                <td>Swift | SQLite</td>
               </tr>
 
               <tr>
@@ -39,18 +41,22 @@ const FriendActivity = () => {
             </div>
             <div className="project-about">
               <p>
-                Friend Activity is an iOS application and widget that aims to provide native support for Spotify's desktop capabilities on mobile devices. With Friend Activity, you can conveniently tune in to your friends' listening activity and manage your close friends from the comfort of your iPhone's home screen.
+                TipIt is an iOS application that aims to streamline bill splitting and tip calculations. Each application is packaged with a lightweight database of +40,000 regional tax rates and geocoding functionalities that enable instant bill breakdowns from a single "total" value. Users can also customize their experience with personalized tip options, 3 visual themes, and a built in "share bill" feature. 
               </p> 
             </div>
           </div>
           <div className="project-images">
               <div className="project-slide">
                 <h4 style={{textAlign: 'center'}}></h4>
-                <img src={design} className='cover-picture' alt=''/>
+                <img src={ui1} className='cover-picture' alt=''/>
               </div>
               <div className="project-slide">
                 <h4 style={{textAlign: 'center'}}></h4>
-                <img src={widget} className='cover-picture' alt=''/>
+                <img src={ui2} className='cover-picture' alt=''/>
+              </div>
+              <div className="project-slide">
+                <h4 style={{textAlign: 'center'}}></h4>
+                <img src={ui3} className='cover-picture' alt=''/>
               </div>
             </div>
         </div>

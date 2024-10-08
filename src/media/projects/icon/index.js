@@ -8,3 +8,4 @@ export { default as headroomIcon } from './headroom.png';
 export { default as travelIcon } from './traveloasis.png';
 export { default as mapsIcon } from './UCLAmaps.png';
 export { default as friendsIcon } from './friendsIcon.png';
+export { default as tipitIcon } from './tipitIcon.png';
