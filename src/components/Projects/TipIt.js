@@ -8,7 +8,7 @@ import ui3 from '../../media/projects/tipit/tipit-ui3.png'
 
 
 
-const FriendActivity = () => {
+const TipIt = () => {
   return (
     <motion.div initial={{opacity: 0}} animate={ {opacity:1, transition: {duration:2, ease:'backInOut'}} } exit={{opacity: 0}}>
       <div className="project-content-wrapper">
@@ -61,4 +61,4 @@ const FriendActivity = () => {
     </motion.div>
   )}
 
-export default FriendActivity;
+export default TipIt;

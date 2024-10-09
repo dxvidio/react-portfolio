@@ -7,6 +7,8 @@ import Projects from './Projects';
 import Contact from './Contact';
 import FriendActivity from "./Projects/FriendActivity";
 import TipIt from "./Projects/TipIt"
+import TipItPrivacyPolicy from "./Projects/TipItPrivacyPolicy"
+
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -19,6 +21,7 @@ function AnimatedRoutes() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/projects/friend-activity" element={<FriendActivity/>}/>
         <Route path="/projects/tipit" element={<TipIt/>}/>
+        <Route path="/projects/tipit/privacy-policy" element={<TipItPrivacyPolicy/>}/>
       </Routes>
     </AnimatePresence>
   );
