@@ -8,9 +8,17 @@
     width: 100%;
     border-radius: 0 0 40px 40px;
   }
-  .page-heading {
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 6vh;
+  }
+  .page-heading {
     font-size: 40px;
+  }
+  .page-link {
+    font-size: 20px; /* Adjust as needed */
   }
   hr {
     border: none; 

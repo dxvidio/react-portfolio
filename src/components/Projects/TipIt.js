@@ -5,7 +5,7 @@ import cover from '../../media/projects/tipit/cover.png'
 import ui1 from '../../media/projects/tipit/tipit-ui1.png'
 import ui2 from '../../media/projects/tipit/tipit-ui2.png'
 import ui3 from '../../media/projects/tipit/tipit-ui3.png'
-
+import downloadApp from '../../media/projects/tipit/downloadApp.png'
 
 
 const TipIt = () => {
@@ -14,7 +14,12 @@ const TipIt = () => {
       <div className="project-content-wrapper">
         <div className="project-content">
           <img src={cover} className='cover-picture' alt=''/>
-          <div className="page-heading">TipIt</div>
+          <div className='page-header'>
+            <div className="page-heading">TipIt</div>
+            <a href="https://apps.apple.com/us/app/tipit-tip-calculator/id6736673634" className="page-link" target="_blank" rel="noopener noreferrer">
+              <img src={downloadApp} alt='' style={{ width: '120px', height: 'auto' }} />
+            </a>
+          </div>
           <hr/>
           <div className="project-info">
             <div className="project-descriptors">
