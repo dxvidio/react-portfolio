@@ -17,6 +17,11 @@
   .page-heading {
     font-size: 40px;
   }
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Adjust spacing as needed */
+  }
   .page-link {
     font-size: 20px; /* Adjust as needed */
   }
