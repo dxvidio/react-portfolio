@@ -8,6 +8,7 @@ import Contact from './Contact';
 import FriendActivity from "./Projects/FriendActivity";
 import TipIt from "./Projects/TipIt"
 import TipItPrivacyPolicy from "./Projects/TipItPrivacyPolicy"
+import CoPro from "./Projects/CoPro"
 
 
 function AnimatedRoutes() {
@@ -22,6 +23,7 @@ function AnimatedRoutes() {
         <Route path="/projects/friend-activity" element={<FriendActivity/>}/>
         <Route path="/projects/tipit" element={<TipIt/>}/>
         <Route path="/projects/tipit/privacy-policy" element={<TipItPrivacyPolicy/>}/>
+        <Route path="/projects/copro" element={<CoPro/>}/>
       </Routes>
     </AnimatePresence>
   );

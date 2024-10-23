@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 
 import './Projects.scss'
 import { bnbIcon, dawIcon, mapsIcon, bruinIcon, coproIcon, cradleIcon, travelIcon, takeoffIcon, headroomIcon, friendsIcon, tipitIcon } from '../media/projects/icon'
-import soon from '../media/soon.png'
 
 const Projects = () => {
 
@@ -58,13 +57,13 @@ const Projects = () => {
               <hr/>
             </a>
 
-            <a href={soon} target="_blank" rel="noreferrer" onMouseOver={() => see_img('copro')} onMouseOut={() => hide_img('copro')}>
+            <NavLink to="/projects/copro" onMouseOver={() => see_img('copro')} onMouseOut={() => hide_img('copro')}>
               <div className="project-title">
                 <div className="project-title-left">CoPro AI</div>
                 <div className="project-title-right">Figma | Photoshop</div>
               </div>
               <hr/>
-            </a>
+            </NavLink>
 
             <a href="https://github.com/JDingle77/UCLAnus/wiki#log" target="_blank" rel="noreferrer" onMouseOver={() => see_img('UCLAnus')} onMouseOut={() => hide_img('UCLAnus')}>
               <div className="project-title">
